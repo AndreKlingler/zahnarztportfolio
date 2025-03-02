@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metatags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="A.Klingler" />
+    <meta name="keyword" content="dentist,portfolio,a.klingler" />
+    <meta name="description" content="This is my dentist portfolio site made from A.Klingler" />
+    <meta name="robots" content="index" /> 
+
+    <link rel="shortcut icon" href="./src/public/favicon-16x16.png" type="image/png">                                       
+    
+    <title>Home</title>
+    <!-- Ressourcen -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="typewriter.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-left">
+          <h6>JONAS</h6>
+        </div>
+        <div class="navbar-middle">
+          <h6>DENTIST</h6>
+        </div>
+        <div class="right-side">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="svg"
+              src="./src/public/instagram.svg"
+              alt="To Instagram"
+            />
+          </a>
+          <a
+            href="https://tiktok.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img class="svg" src="./src/public/tiktok.svg" alt="To TikTok" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="background"></div>
+      <div class="content-container">
+        <div class="text-container">
+          <h3 id="greetings">Hello</h3>
+          <h1>I'm Jonas</h1>
+        </div>
+        <div class="btn-container">
+          <a class="btn-cta" href="#aboutme">About Me</a>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="aboutme">
+        <h3 id="aboutme">About Me</h3>
+        <div class="cards-container">
+          <div class="card-left">
+            <img src="./src/public/i-dental 1.svg" alt="i-dental Logo" />
+          </div>
+          <div class="card-right">
+            <h6>I'm a Dentist</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              invidunt ut labore et dolore magna aliquyam erat, sed diam
+              voluptua.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="text-container">
+          <h3>Newsletter</h3>
+          <h6>Subcribe to my newsletter to stay update</h6>
+        </div>
+        <form
+          class="newsletter-form"
+          action="https://formspree.io/f/xjkgnwro"
+          method="POST"
+        >
+          <input type="email" placeholder="your@mail.com" name="email" />
+          <button type="submit">
+            <img
+              src="./src/public/send-email-solid 1.svg"
+              alt="Submit Button"
+              aria-label="click to submit your email to us"
+            />
+          </button>
+        </form>
+      </section>
+      <section class="skills">
+        <h3>My favorite Skills</h3>
+        <div class="skills-container">
+          <div class="skill-img one">
+            <img src="./src/public/tangent.svg" alt="Image Description" />
+          </div>
+          <div class="skill-desc two">
+            <h6>Root treatment</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+              suscipit officiis corporis nulla impedit nemo saepe rem nisi eos
+              mollitia ipsum, a, eaque eveniet itaque. Voluptas culpa adipisci
+              quo officiis?
+            </p>
+          </div>
+
+          <div class="skill-desc three">
+            <h6>Dental fillings</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+              suscipit officiis corporis nulla impedit nemo saepe rem nisi eos
+              mollitia ipsum, a, eaque eveniet itaque. Voluptas culpa adipisci
+              quo officiis?
+            </p>
+          </div>
+          <div class="skill-img four">
+            <img src="./src/public/fill.svg" alt="Image Description" />
+          </div>
+
+          <div class="skill-img five">
+            <img
+              src="./src/public/tools-pliers-wire-stripper.svg"
+              alt="Image Description"
+            />
+          </div>
+          <div class="skill-desc six">
+            <h6>Tooth extractions</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+              suscipit officiis corporis nulla impedit nemo saepe rem nisi eos
+              mollitia ipsum, a, eaque eveniet itaque. Voluptas culpa adipisci
+              quo officiis?
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-left">
+        <h5>Jonas</h5>
+        <div class="Link-container">
+          <a href="#aboutme">About Me</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="right-side">
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="svg"
+            src="./src/public/instagram.svg"
+            alt="To Instagram"
+          />
+        </a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+          <img class="svg" src="./src/public/tiktok.svg" alt="To TikTok" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
